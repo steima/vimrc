@@ -28,3 +28,5 @@ highlight LineNr ctermfg=grey
 " Supertab configuration
 let g:SuperTabMappingForward = '<c-space>'
 let g:SuperTabMappingBackward = '<s-c-space>'
+
+let &colorcolumn=join(range(81,999),",")
